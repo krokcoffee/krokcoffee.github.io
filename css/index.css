@@ -1,0 +1,444 @@
+body{
+  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+/* Container
+===================*/
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Header, Nav
+===================*/
+.header{
+  height: 71px;
+  width: 100%;
+  top: 0;
+  
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav{
+float: right;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+height: 22px;
+padding-top: 28px;
+margin-left: 405px;
+}
+
+.nav__link{
+
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+  color: #000000;
+  text-decoration: none;
+  transition: color .2s linear;
+}
+
+.nav__link:hover{
+  color: #FF7A00;
+}
+
+/* Dropdown
+===================*/
+.dropbtn {
+  background-color: #2EA332;
+  color: white;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  transition: background .2s linear;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  right: 0px;
+  top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: background .2s linear;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background .2s linear;
+}
+
+.dropdown-content a:hover {background-color: #FBCFA7;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #27B92C;
+}
+
+/*Intro
+================*/
+.intro{
+  height: 610px;
+  background-color: #E2E6EC;
+
+}
+
+.intro__picture{
+  padding: 84px;
+  float: right
+
+}
+
+.intro__title {
+position: absolute;
+width: 520px;
+height: 112px;
+margin-left: 110px;
+top: 196px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 43px;
+line-height: 135%;
+text-align: justify;
+color: #000000;
+
+}
+
+.intro__subtitle {
+  position: absolute;
+  width: 520px;
+  height: 67px;
+  margin-left: 110px;
+  top: 348px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 146%;
+  text-align: justify;
+  color: #000000;
+}
+
+/* Button
+===================*/
+.btn {
+
+  display: inline-block;
+  vertical-align: middle;
+  padding: 15px 18px;
+  margin-top: 387px;
+  margin-left: 110px;
+
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+
+  transition: background .2s linear;
+}
+
+.btn--orange {
+    background-color: #EA7B15;
+}
+
+.btn--orange:hover {
+    background-color: #FF7A00;
+}
+
+/* Phone
+===================*/
+.phone{
+position: fixed;
+width: 102px;
+height: 91px;
+left: 41px;
+top: 550px;
+}
+
+/* Message
+===================*/
+.message{
+position: fixed;
+width: 113px;
+height: 95px;
+right: 41px;
+top: 548px;
+}
+
+/* Main Part
+===================*/
+
+.main_title{
+position: absolute;
+width: 495px;
+height: 80px;
+margin-left:395px;
+margin-top: 90px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 135%;
+/* or 41px */
+text-align: center;
+color: #000000;
+}
+
+.first_text{
+position: absolute;
+width: 510px;
+height: 80px;
+margin-left: 90px;
+margin-top: 238px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 135%;
+/* or 41px */
+color: #000000;
+}
+
+.second_text{
+  position: absolute;
+width: 500px;
+height: 176px;
+margin-left: 90px;
+margin-top: 343px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 146%;
+/* or 23px */
+text-align: justify;
+color: #000000;
+}
+
+.main__pic1{
+  padding-top: 238px;
+  float: right;
+}
+
+.main__pic2{
+  padding-top: 545px;
+  padding-left: 22px;
+}
+
+
+/* Second Part
+===================*/
+
+.middle_title{
+position: absolute;
+width: 510px;
+height: 80px;
+margin-left: 695px;
+margin-top:25px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 135%;
+/* or 41px */
+color: #000000;
+}
+
+.middle_text{
+  position: absolute;
+width: 500px;
+height: 76px;
+margin-left: 695px;
+margin-top: 140px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 146%;
+/* or 23px */
+text-align: justify;
+color: #000000;
+}
+
+.middlelast_text{
+  position: absolute;
+width: 500px;
+height: 76px;
+margin-left: 695px;
+margin-top: 234px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 146%;
+/* or 23px */
+text-align: justify;
+color: #000000;
+}
+
+.main__pic3{
+  margin-top: 345px;
+  float: right;
+}
+
+.main__pic4{
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+/* Last Part
+===================*/
+.last_text{
+position: absolute;
+width: 340px;
+height: 311px;
+margin-left: 177px;
+margin-top: 35px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 146%;
+/* or 25px */
+text-align: center;
+color: #000000;
+}
+
+.map1{
+margin-top: 138px;
+margin-left: 695px;
+}
+
+.main__pic5{
+  position: absolute;
+width: 421px;
+height: 416px;
+margin-left: 136px;
+top: 1948px;
+}
+
+.main__pic6{
+  position: absolute;
+width: 369px;
+height: 421px;
+margin-left:0px;
+top: 1945px;
+}
+
+/* Footer
+===================*/
+
+.footer{
+position: absolute;
+  width: 100%;
+  height: 95px;
+  margin-top: 57px;
+  margin-bottom: 0px;
+  left: 0px;
+  background: #E2E6EC;
+}
+
+.footer_logo{
+margin-left: 0px;
+right: 82.03%;
+margin-top: 0px;
+}
+
+.footer_text{
+  position: absolute;
+margin-left: 250px;
+margin-top: 32px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 146%;
+/* or 19px */
+text-align: justify;
+color: #2C2C2C;
+}
+
+.instagram_logo{
+  position: absolute;
+margin-left: 1205px;
+top: 42%;
+bottom: 45.05%;
+}
+
+.facebook_logo{
+  position: absolute;
+margin-left: 1245px;
+top: 42%;
+bottom: 45.05%;
+border-radius: 10px;
+}
+
+.sign{
+position: absolute;
+margin-left:1220px;
+top: 70%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 146%;
+/* or 15px */
+text-align: justify;
+color: #2C2C2C;
+}

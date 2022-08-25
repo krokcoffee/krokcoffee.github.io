@@ -1,0 +1,312 @@
+body{
+  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+/* Container
+===================*/
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Header, Nav
+===================*/
+.header{
+  height: 71px;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav{
+float: right;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+height: 22px;
+padding-top: 28px;
+margin-left: 405px;
+}
+
+.nav__link{
+
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+  color: #000000;
+  text-decoration: none;
+  transition: color .2s linear;
+}
+
+.nav__link:hover{
+  color: #FF7A00;
+}
+
+/* Dropdown
+===================*/
+.dropbtn {
+  background-color: #2EA332;
+  color: white;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  transition: background .2s linear;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  right: 0px;
+  top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: background .2s linear;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background .2s linear;
+}
+
+.dropdown-content a:hover {background-color: #FBCFA7;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #27B92C;
+}
+
+/* Ugandan Mountain Part
+===================*/
+.ugandan{
+  height: 1025px;
+  background-color: #2C2C2C;
+}
+
+.ugandan_title{
+position: absolute;
+width: 647px;
+height: 65px;
+margin-left: 303px;
+margin-top: 45px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 43px;
+line-height: 135%;
+/* or 58px */
+text-align: center;
+color: #FFFFFF;
+}
+
+.picture_one{
+float: right;
+top: 70px;
+}
+
+.picture_two{
+  position: absolute;
+  width: 235px;
+  height: 158px;
+  margin-left: 1055px;
+  top: 682px;
+}
+
+.coffee_sub{
+  position: absolute;
+width: 380px;
+height: 105px;
+left: calc(50% - 380px/2 - 400px);
+margin-top: 670px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 146%;
+/* or 35px */
+
+text-align: center;
+color: #FFFFFF;
+}
+/* Ugandan Mountain Picture
+===================*/
+
+.rectangle_ugandan{
+  position: absolute;
+width: 380px;
+height: 448px;
+margin-left: 50px;
+top: 286.66px;
+
+background: #E2E6EC;
+border: 3px solid #EA7B15;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.ugandan_pic{
+  position: absolute;
+width: 380px;
+height: 517px;
+margin-top: 8.34px;
+margin-left: 7px;
+}
+
+.ugandan_text{
+  position: absolute;
+width: 598px;
+height: 363px;
+left: calc(50% - 598px/2 + 291px);
+top: 295px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 146%;
+/* or 23px */
+text-align: justify;
+color: #FFFFFF;
+}
+
+.picthree_title{
+  position: absolute;
+width: 380px;
+height: 20px;
+left: calc(50% - 380px/2);
+top: 840px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 146%;
+/* or 25px */
+text-align: center;
+color: #FFFFFF;
+}
+
+.picture_three{
+  position: absolute;
+width: 1180px;
+height: 158px;
+margin-left: 50px;
+top: 883px;
+}
+
+/* Phone
+===================*/
+.phone{
+position: fixed;
+width: 102px;
+height: 91px;
+left: 41px;
+top: 550px;
+}
+
+/* Message
+===================*/
+.message{
+position: fixed;
+width: 113px;
+height: 95px;
+right: 41px;
+top: 548px;
+}
+/* Footer
+===================*/
+
+.footer{
+position: absolute;
+  width: 100%;
+  height: 95px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  left: 0px;
+}
+
+.footer_logo{
+margin-left: 0px;
+right: 82.03%;
+margin-top: 0px;
+}
+
+.footer_text{
+  position: absolute;
+margin-left: 250px;
+margin-top: 32px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 146%;
+/* or 19px */
+text-align: justify;
+color: #2C2C2C;
+}
+
+.instagram_logo{
+  position: absolute;
+margin-left: 1205px;
+top: 42%;
+bottom: 45.05%;
+}
+
+.facebook_logo{
+  position: absolute;
+margin-left: 1245px;
+top: 42%;
+bottom: 45.05%;
+border-radius: 10px;
+}
+
+.sign{
+position: absolute;
+margin-left:1220px;
+top: 70%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 146%;
+/* or 15px */
+text-align: justify;
+color: #2C2C2C;
+}
